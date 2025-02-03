@@ -12,7 +12,7 @@ private:
     string storage;
 
 public:
-    // Setter methods
+   
     void setCompany(string company) {
         this->company = company;
     }
@@ -37,7 +37,7 @@ public:
         this->storage = storage;
     }
 
-    // Getter methods
+    
     string getCompany() {
         return company;
     }
@@ -62,7 +62,7 @@ public:
         return storage;
     }
 
-    // Specific actions the smartphone can perform
+    
     void makePhoneCall() {
         cout << "Making a phone call..." << endl;
     }
@@ -81,7 +81,7 @@ public:
 };
 
 int main() {
-    // Create different smartphone objects
+    
     Smartphone smartphone1;
     smartphone1.setCompany("Apple");
     smartphone1.setModel("iPhone 14");
@@ -98,7 +98,7 @@ int main() {
     smartphone2.setRom("256GB");
     smartphone2.setStorage("256GB");
 
-    // Display smartphone attributes
+   
     cout << "Smartphone 1 details: " << endl;
     cout << "Company: " << smartphone1.getCompany() << endl;
     cout << "Model: " << smartphone1.getModel() << endl;
@@ -117,7 +117,7 @@ int main() {
     cout << "ROM: " << smartphone2.getRom() << endl;
     cout << "Storage: " << smartphone2.getStorage() << endl;
 
-    // Perform actions
+    
     smartphone1.makePhoneCall();
     smartphone2.sendMessage();
     smartphone1.connectToWifi();
