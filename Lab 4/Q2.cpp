@@ -95,7 +95,7 @@ public:
     void display() {
         for (int i = 0; i < c; i++) {
             cout << "sssss Library" << endl;
-            cout << "Book: " << i + 1 << endl;
+            cout << "Book " << i + 1 << endl;
             cout << "Name: " << b[i].getid() << endl;
             cout << "Title: " << b[i].gettitle() << endl;
             cout << "Author: " << b[i].getauthor() << endl;
