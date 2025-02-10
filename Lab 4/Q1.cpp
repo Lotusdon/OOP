@@ -19,7 +19,9 @@ class student{
    }
    
    void promoteStudent(){
-       --grade;
+       if (grade!='A'){
+        --grade;
+       }
    }
    string isEligibleForScholarship(){
        string res="False";
